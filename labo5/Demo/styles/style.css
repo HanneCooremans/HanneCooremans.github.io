@@ -1,0 +1,35 @@
+h1, h2 {
+    color : blue;
+    font-size : 5em;
+}
+
+/* = selector*/
+
+.styleYellow
+{color:yellow;}
+/* = class, pas als het niet kan met selector */
+
+#opmaak{
+    color:yellow;
+}
+/* =id, als maar 1 keer mag gebruikt worden*/
+
+section>h1{
+    color : green;
+    font-size: 5em;
+
+}
+/* = selector, opmaak op basis van element, alleen kinderen*/
+
+section h1{
+    color : green;
+    font-size: 5em;
+
+}
+/* als nakomeling is van section */
+
+section.styleYellow h1{
+    color: green;
+    font-size : 5em
+}
+/* als nakomeling is met style yellow*/
