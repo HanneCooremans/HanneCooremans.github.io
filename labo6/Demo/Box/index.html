@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color: yellow;
+            color: white;
+            border: 2px solid red;
+        }
+        h1 {
+            background-color:red;
+            width: 50%;
+            font-size: 3em;
+            border : 1px solid blue;
+            /*margin-top : 0px;*/
+            /*padding-top: 0px;
+            padding-right: 0px;
+            ...*/
+            padding: 50px 100px 30px 100px;  /*top right bottom left*/
+            margin: 50px; /* all */
+        /* margin-left: 200px;  laatste wint, margin neemt kleur over van parrent*/
+            margin-left:auto;
+            margin-right:auto; /* gebruikt om te centreren*/
+            display: inline;
+
+    }
+        span{
+            width: 300px;
+            /* width: 8000px; */ /* geen effect omdat inline element*/
+            background-color: grey;
+            padding-top: 100px;
+            padding-bottom: 100px;
+            /* display:block;  hierdoor nieuwe regel tussen*/
+            display:inline-block /* blijft ionline element, maar past regels block toe */
+        }
+        p{
+            width: 300px;
+            /* width: 300px; */ /* gebruikt alles*/
+            background-color: grey;
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+        img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+</style>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1> VIVES </h1>
+<h1>CSS</h1>
+<p>Selector</p>
+<img src="Images/download.jpg" height="183" width="275" alt="foto"/>
+<span>element1</span>
+<span>element2</span>
+<span>element3</span>
+
+</body>
+</html>

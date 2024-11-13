@@ -1,0 +1,42 @@
+body{
+    font-family: 'Helvetica', sans-serif;
+}
+header h1, header h2{
+    color: #EDF2F4;
+}
+h1,h2{
+    font-weight: normal; /* anders vanzelf bold*/
+}
+h1 {
+    font-size:6em; /* voorgaande beter = relatief (delen door 12) font-size: 80px; dit is absoluut*/
+}
+h2{
+    font-size: 2.5em; /*font-size: 40px;  em= lettergroote standaard ingesteld = tussen 12 en 14 px meestal*/
+}
+/* Header en Footer
+--------------------------------*/
+header, footer{
+    background-color: #2B2D42;
+    color:#8D99AE;
+}
+header{
+    margin-bottom: 10px;
+}
+footer{
+    margin-top: 10px;
+}
+/* Header, Footer en education
+---------------------------------*/
+header, footer, .education{
+    padding: 30px;
+}
+/* Education
+----------------------------------*/
+.education{
+    background-color: #8D99AE;
+}
+/* links
+----------------------*/
+a:link{
+    color: #EF233C;
+}
