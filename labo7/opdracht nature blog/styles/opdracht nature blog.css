@@ -1,0 +1,36 @@
+body{
+    font-family: Verdana, sans-serif;
+    font-size:0.8em;
+    width:95%;
+    margin:auto;
+}
+
+body>section>header{
+    height: 200px;
+    background-image: url('../images/header.jpg');
+    background-size:cover;
+}
+body>section>header>h1{
+    color:#FFFFFF;
+    font-size:40px;
+    font-weight: bold;
+    margin:10px;
+}
+nav {
+    background-color: #444444;
+    background-size:cover;
+}
+nav>a{
+    color: #55fd98;
+    font-weight: bold;
+    text-decoration: none;
+}
+article{
+    margin: 5px;
+    padding: 5px;
+    background-color: #ececed;
+}
+article>header>h1{
+    font-size: 30px;
+    text-decoration: underline;
+}

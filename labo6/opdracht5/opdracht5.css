@@ -1,3 +1,7 @@
+/*a::before{
+    content: url("Images/bloem.png")
+}*/
+
 a {
     background-image: url("Images/bloem.png");
     background-repeat: no-repeat;
