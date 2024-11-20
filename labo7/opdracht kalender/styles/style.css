@@ -11,10 +11,19 @@ td:last-child{
 .andereMaand {
     background-color: rgb(203, 203, 203) !important;
 }
-th{
+.titel{
     background-color: rgb(170,170,200) ;
+    color:black;
 }
-tbody>tr:first-child{
+th{
     color: rgb(200,190,240);
     background-color: rgb(35,37,70);
+}
+a{
+    font-weight: bold;
+}
+table{
+    border-color: black;
+    border-collapse: collapse;
+    border-width: 2px;
 }
