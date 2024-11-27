@@ -1,0 +1,28 @@
+h2{
+    margin: 10px;
+}
+img{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+body{
+    font-size: 1.25em;
+}
+article{
+    border: 1px solid black;
+    margin: 10px;
+    min-height: 254px;
+}
+article:nth-child(even) img{
+    float: right;
+
+}
+article:nth-child(odd) img{
+    float: left;
+
+}
+article:nth-child(even) p{
+    margin-left:10px;
+
+}
