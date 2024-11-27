@@ -1,0 +1,69 @@
+body{
+    font:1.2em "Verdana", "Helvetica", "Arial", sans-serif;
+    margin:0px;
+    padding:0px;
+    width:95%;
+    margin-left:auto;
+    margin-right:auto;
+}
+header img{
+    display: block; /* anders is dit een inline, waarop margin geen effect heeft*/
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    font-size: 150%;
+}
+h1, h2{
+    color: #007e7e;
+}
+h2{
+    font-size: 130%;
+}
+
+footer{
+    font-size: 0.5em;
+    clear:both;
+    text-align: center;
+
+}
+#guarantee{
+    margin:30px;
+    padding:25px 25px 25px 80px;
+    background: #a7cece url(../images/background.gif) no-repeat top left;
+
+    line-height: 1.9em;
+    font-style:italic;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color:#444444;
+    border-color: white;
+    border-width: 1px;
+    border-style: dashed;
+
+}
+body>article a:hover{
+    color:brown;
+}
+body>article>h1{
+    color:black;
+}
+body>article>h2{
+    color:hotpink;
+}
+body>article{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    padding: 2%;
+    width: 30%;
+    float:right;
+    box-sizing: border-box;
+    text-align: center;
+    background: url("../images/cocktail.gif")repeat-x;
+}
+#content{
+    float: left;
+    width:70%;
+    padding-right: 8px;
+    box-sizing: border-box;
+}
