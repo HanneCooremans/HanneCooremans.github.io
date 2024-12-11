@@ -1,0 +1,37 @@
+h1{
+    font-size:7em;
+    width:80%;
+    margin: auto;
+    height: 200px;
+    background-image: url('../afbeeldingen/patroon.jpg');
+    background-repeat: repeat;
+    padding: 2% 10%;
+}
+article{
+    margin: 5px;
+    padding: 5px;
+    background-color: #fcdee4;
+    height:300px;
+}
+body{
+    background-color: #f4a7b7;
+}
+h2{
+    font-size: 4em;
+    background-image: url('../afbeeldingen/bloemen.jpg');
+    margin: 10px;
+    height: 110px;
+    padding-top: 3%;
+    background-repeat: repeat;
+}
+body>ul>li{
+    font-size: 50px;
+}
+body>ul>li>ul>li{
+    font-size: 40px;
+}
+body>ul>li>ul>li>ul>li{
+    font-size: 30px;
+}
+
+
