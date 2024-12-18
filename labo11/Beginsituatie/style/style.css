@@ -1,0 +1,80 @@
+/* items */
+
+section div {
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: 3em;
+}
+
+/* specific item styles */
+
+.item-1 {
+    background: #b03532;
+    grid-area: een;
+}
+.item-2 {
+    background: #33a8a5;
+    grid-area: twee;
+}
+.item-3 {
+    background: #30997a;
+    grid-area: drie;
+}
+.item-4 {
+    background: #6a478f;
+    grid-area: vier;
+}
+.item-5 {
+    background: #da6f2b;
+    grid-area: vijf;
+}
+.item-6 {
+    background: #3d8bb1;
+    grid-area: zes;
+}
+.item-7 {
+    background: #e03f3f;
+    grid-area: zeven;
+}
+.item-8 {
+    background: #59a627;
+    grid-area: acht;
+}
+.item-9 {
+    background: #4464a1;
+    grid-area: negen;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-gap: 10px;
+    grid-template-areas:
+                  'een twee drie'
+                  'vier vijf zes'
+                  'zeven acht negen';
+    padding: 10px;
+}
+@media screen and (max-width: 760px) {
+    .grid-container{
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto auto;
+        grid-template-areas:
+                  'negen twee'
+                  'vier vijf'
+                  'zeven acht'
+                  'drie drie'
+
+    }
+    .item-1 {
+        display: none;
+    }
+    .item-6 {
+        display: none;
+    }
+
+}
+
+
+
