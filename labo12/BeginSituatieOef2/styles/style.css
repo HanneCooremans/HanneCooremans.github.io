@@ -1,0 +1,37 @@
+html {
+    background-color: #333;
+    font-family: helvetica;
+}
+
+* {
+    padding: 10px;
+}
+header, footer{
+    background-color: #ddaa00
+}
+a{
+    color: #ddaa00;
+}
+nav{
+    background-color: #ccc;
+}
+main{
+    background-color: grey;
+}
+body{
+    font-size: 1em;
+    margin:5px;
+}
+section{
+    margin:5px;
+}
+nav a {
+    margin: 0 5px;
+}
+h1{
+    margin: 0px;
+}
+@media screen and (min-width: 700px) {
+
+}
+

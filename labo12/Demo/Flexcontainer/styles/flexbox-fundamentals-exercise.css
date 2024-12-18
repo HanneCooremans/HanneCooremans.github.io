@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: lightskyblue;
+    font-family: Chalkboard, sans-serif;
+}
+
+h1 {text-align: center;}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+
+}
+
+
+.border {border: 2px solid black;}
+
+section{
+    background: coral;
+    height:500px;
+    display: flex;
+    /* flex-direction: row; default */
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+
+    /* flex-wrap: wrap; */
+
+    /* justify-content: stretch;  default hoe verticaal elementen positioneren */
+    /* justify-content: flex-end; */
+   justify-content: center;
+
+    /* align-items: flex-end; */
+    align-items: center;
+}
+
+
+.grey-box {
+    background: grey;
+    width: 100px;
+    flex: 0.1 auto; /* default  flex grow.flex shrink 0 is nee, 1 is ja  auto: in dit geval 100%, neemt ingestelde breedte over, als n iet ingesteld => breedte van de inhoud*/
+    margin: 10px;
+    padding: 20px;
+    font-size: 2em;
+}
