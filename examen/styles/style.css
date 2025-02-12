@@ -1,0 +1,165 @@
+/* algemeen + achtergrond */
+body{
+    font-family: "Arial", "courier new", serif;
+    margin: 0px;
+    color: #292929;
+    background-image: url(../images/chips_challenge.jpg);
+    background-size: cover;
+
+}
+/* hoofding */
+header{
+    width:100%;
+    background-color:#292929;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+header>h1{
+    color:white;
+    text-align: center;
+}
+ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+}
+
+nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 600px;
+    margin:auto;
+
+}
+nav>ul>li>a{
+    color:white;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+nav>ul>li{
+    list-style: none;
+}
+nav>ul>li:hover{
+    border-bottom: white solid 1px;
+}
+/* inhoud + monster*/
+
+section{
+    width:80%;
+    margin: 2rem auto;
+}
+@media screen and (max-width: 992px)
+{
+    section{
+        width:90%;
+
+    }
+}
+section section{
+    width:100%;
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+section>h2{
+    border-bottom: #292929 solid 2px;
+    padding: 0.5rem;
+}
+p::first-letter{
+    font-size: 2em;
+    font-weight: bold;
+
+}
+section ul{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 1rem;
+    grid-template-areas: 'bug blob fireball paramecium teeth';
+}
+.item1 { grid-area: bug; }
+.item2 { grid-area: blob; }
+.item3 { grid-area: fireball; }
+.item4 { grid-area: paramecium; }
+.item5 { grid-area: teeth; }
+section li{
+    border: 2px dashed #ccc;
+    padding-left:1em;
+    padding-right:1em;
+
+}
+
+section li:nth-child(2n){
+    background-color: white;
+}
+section li:nth-child(2n+1){
+    background-color: lightgray;
+}
+section ul li p{
+    padding-top: 0.5rem ;
+    padding-bottom: 0.5rem;
+}
+section ul li img{
+    padding-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 992px)
+{
+    section ul{
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        grid-template-areas:
+                  'bug blob'
+                  'fireball paramecium';
+        margin:1rem;
+    }
+    section li:nth-child(2n){
+        background-color: #dfdfdf;
+    }
+    section li:nth-child(2n+1){
+        background-color: white;
+    }
+}
+/* informatie */
+table{
+    width:100%;
+}
+tr{
+    border-bottom: 1px dashed #aaa;
+    width:100%;
+}
+td{
+    padding: 0.2em 1em 0.2em 1em;
+}
+td#bron{
+    font-size:60%;
+    text-align:right;
+}
+
+/* footer */
+footer{
+    width:100%;
+    background-color: #a7a5a5;
+    color:black;
+    font-size: 0.8em;
+    text-align: center;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+footer a{
+    color:#ce0000;
+    text-decoration: none;
+}
+footer li{
+    list-style: none;
+}
+footer a:hover{
+  border-bottom: black solid 1px;
+
+}
+
