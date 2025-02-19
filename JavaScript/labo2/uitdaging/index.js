@@ -14,8 +14,6 @@ const withBullets = () => {
             verranderlijkeArray[i].style.backgroundColor = "red";
             verranderlijkeArray[i].style.listStyleType = "none";
         }
-
-
 }
 
 const withoutBullets = () => {
@@ -24,9 +22,6 @@ const withoutBullets = () => {
         verranderlijkeArray[i].style.backgroundColor = "white";
         verranderlijkeArray[i].style.listStyleType = "disc";
     }
-
-
-
 
 }
 
