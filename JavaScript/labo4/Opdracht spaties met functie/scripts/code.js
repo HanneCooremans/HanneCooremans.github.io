@@ -3,11 +3,11 @@ const setup = () => {
     let btn = document.getElementById("btn");
     btn.addEventListener("click", () => {
         let tekst = txtInput.value;
-        const uitkomst = execute(tekst);
+        const uitkomst = maakMetSpaties(tekst);
         console.log(uitkomst)});
 }
 
-const execute = (tekst) => {
+const maakMetSpaties = (tekst) => {
 
     let antw = "";
     for (const char of tekst) {
@@ -18,5 +18,6 @@ const execute = (tekst) => {
     antw = antw.substring(0,antw.length-1);
     return antw;
 }
+
 window.addEventListener("load", setup);
 
