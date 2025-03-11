@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulier</title>
+</head>
+<body>
+<h2>Personal Information</h2>
+<form>
+    <label for="firstName"> First Name*:</label>
+    <input type="text" name="firstName"  required="required"  placeholder="Your first name"  autofocus="autofocus" />
+    <br/>
+    <label for="lastName">Last Name*:</label>
+    <input type="text" name="lastName"  required="required"
+           placeholder="Your last name" />
+    <br/>
+</form>
+<h2>Sports</h2>
+<form>
+    <label>Which sport do you train?</label>
+    <br/>
+    <input type="checkbox"
+           name="running"
+           value="Running"/>
+    <label for="running"> Running</label>
+    <br/>
+    <input type="checkbox"
+           name="swimming"
+           value="Swimming"/>
+    <label for="swimming"> Swimming</label>
+    <br/>
+    <input type="checkbox"
+           name="rowing"
+           value="Rowing"/>
+    <label for="rowing"> Rowing</label>
+</form>
+<h2>Gender</h2>
+<form>
+    <input type="radio"
+           name="male"
+           value="Male"/>
+    <label for="male"> Male</label>
+    <br/>
+    <input type="radio"
+           name="female"
+           value=Female"/>
+    <label for="female"> Female</label>
+    <br/>
+    <input type="radio"
+           name="other"
+           value="Other / Prefer not to say"/>
+    <label for="other"> Other / Prefer not to say</label>
+</form>
+<h2>Favorites</h2>
+<form>
+    <label for="favorite movie"> Favorite movie:</label>
+    <input type="text" name="favorite movie" placeholder="" />
+    <br/>
+    <label for="favorite quote"> Favorite quote:</label>
+    <input type="text" name="favorite quote" placeholder="Write your favorite quote" />
+    <br/>
+    <label for="favorite food"> Favorite food:</label>
+    <select name="favorite food" size="3"
+            multiple=”multiple”>
+        <option value="hamburger">Hamburger</option>
+        <option value="hot dog">Hot Dog</option>
+        <option value="pizza">Pizza</option>
+    </select>
+    <br/>
+    <label for="flavor"> Choose a flavor:</label>
+    <input type="text" name="flavor" placeholder="" />
+</form>
+
+<h2>Security & Contact</h2>
+<form>
+    <label for="password"> Password*:</label>
+    <input type="password" name="password"  required="required"  placeholder="" />
+    <br/>
+    <label for="email"> Email address*:</label>
+    <input type="email" name="email"  required="required"  placeholder="Enter your email address" />
+    <br/>
+    <label for="site"> Favorite site:</label>
+    <input type="url" name="site" placeholder="Enter the URL of your favorite site" />
+</form>
+
+<h2>Additional Information</h2>
+<form>
+    <label for="number"> Favorite number(1-10):</label>
+    <input type="number" name="number" min="1" max="10" />
+    <br/>
+    <label for="range"> Favorite number(11-1000):</label>
+    <input type="range" name="range" min="11" max="1000" />
+    <br/>
+    <label for="date"> When were you born?</label>
+    <input type="date" name=”date” />
+    <br/>
+    <label for="number"> Belgium zip-code reg number*:</label>
+    <input type="number" name="number" required="required"  placeholder="9999"/>
+</form>
+
+<h2>Miscellaneous</h2>
+<form>
+    <label for="search">Search for something:</label>
+    <input type="search" name="search" />
+    <br/>
+    <label for="color">What is your favorite color?</label>
+    <input type="color" name="color" />
+    <br/>
+    <label for="file">Uploade a file:</label>
+    <input type="file" multiple="multiple" name="file" placeholder="bestand kiezen"/>
+
+</form>
+
+<input type="submit" value="Submit" />
+
+</body>
+</html>
