@@ -1,5 +1,4 @@
 const setup = () => {
-    console.log("begin")
     let txtInput = document.getElementById("input");
     let btn = document.getElementById("btn");
     btn.addEventListener("click", () => {
