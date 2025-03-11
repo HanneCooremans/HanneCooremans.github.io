@@ -13,7 +13,6 @@ let teller = (zin) => {
     while(doordoen === true) {
         index = zin.lastIndexOf("an", position)
         if(index > -1){
-            console.log(index);
             position = index - 1;
             aantal = aantal +1;
         }else {
