@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+	<title>Kip en ei</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+	<!-- Voeg hier het tesktvak en de keuzelijst toe -->
+
+	<form>
+	<label for="keuze">Staat van de kip </label>
+	<select multiple size="2" name="keuze" id="keuze">
+		<option value="1">Met een ei</option>
+		<option value="2">Zonder een ei</option>
+	</select>
+		<br/>
+		<label for="txtLetter">Geef een letter:</label>
+		<input type="text" id="txtLetter" maxlength="1"/>
+	</form>
+
+	<div id="img" class="hidden"></div>
+	<p id="note"></p>
+
+	<script src="script.js"></script>
+</body>
+</html>
